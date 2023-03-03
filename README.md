@@ -20,16 +20,16 @@ We use Arduino IDE to program the ESP32-CAM board. So, you need to have installe
  For downloading Arduino IDE[ click here](https://www.filehorse.com/download-arduino/61669/download/#google_vignette) 
 ### ESP32CAM Module Installation:
 We will not use the general ESP webserver example in this case, but rather another streaming procedure. As a result, we must include another ESPCAM module. The esp32cam library offers an object-oriented API for interacting with the OV2640 camera on the ESP32 microcontroller. It is an esp32-camera library shell.
- Go to the following Github link and  [download the zip library.]( https://github.com/yoursunny/esp32cam)
+- Go to the following Github link and  [download the zip library.]( https://github.com/yoursunny/esp32cam)
  
-**Once obtained, place this zip library in the Arduino Library Folder. To do so, take the following steps**:
-Launch Arduino ->Sketch -> Include Library -> Add.ZIP Library... -> Navigate to the extracted zip file -> add.
+**Once obtained, place this zip library in the Arduino Library Folder. To do so, take the following steps:**
+- Launch Arduino ->Sketch -> Include Library -> Add.ZIP Library... -> Navigate to the extracted zip file -> add.
 ### ESP32 CAM BOARD INSTALLATION:
  You have to install esp32 version 1.0.5 from board manager.
 **For installation you have to add ESP32 board manager by following steps:**
  Open file -> Preferences and paste the below URL in the Additional boards manager URLs field 
 (https://dl.espressif.com/dl/package_esp32_index.json)                                                                                                                     
-Now open Tools -> Board Manager-> ESP32 Arduino.
+- Now open Tools -> Board Manager-> ESP32 Arduino.
 ### Code and Changes:                                                                                                                                                                              
 You have to download the files in this[ Github directory](https://github.com/SaniaZahra08/Class-Monitoring-Robot) and change the following according to your wifi ssid and password.
 1. const char* WIFI_SSID = "ssid"; 
