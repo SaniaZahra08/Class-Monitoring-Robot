@@ -17,10 +17,10 @@ Arduino Uno   :	ESP32 Cam
 
 ### Installation OF Arduino IDE:
 We use Arduino IDE to program the ESP32-CAM board. So, you need to have installed Arduino IDE version 1.8.15.
- [For downloading Arduino IDE click here](https://www.filehorse.com/download-arduino/61669/download/#google_vignette) 
+ For downloading Arduino IDE[ click here](https://www.filehorse.com/download-arduino/61669/download/#google_vignette) 
 ### ESP32CAM Module Installation:
 We will not use the general ESP webserver example in this case, but rather another streaming procedure. As a result, we must include another ESPCAM module. The esp32cam library offers an object-oriented API for interacting with the OV2640 camera on the ESP32 microcontroller. It is an esp32-camera library shell.
-  [Go to the following Github link and download the zip library.]( https://github.com/yoursunny/esp32cam)
+ Go to the following Github link and  [download the zip library.]( https://github.com/yoursunny/esp32cam)
  
 **Once obtained, place this zip library in the Arduino Library Folder. To do so, take the following steps**:
 Launch Arduino ->Sketch -> Include Library -> Add.ZIP Library... -> Navigate to the extracted zip file -> add.
@@ -31,7 +31,7 @@ Launch Arduino ->Sketch -> Include Library -> Add.ZIP Library... -> Navigate to 
 (https://dl.espressif.com/dl/package_esp32_index.json)                                                                                                                     
 Now open Tools -> Board Manager-> ESP32 Arduino.
 ### Code and Changes:                                                                                                                                                                              
-[You have to download the files in this Github directory](https://github.com/SaniaZahra08/Class-Monitoring-Robot) and change the following according to your wifi ssid and password.
+You have to download the files in this[ Github directory](https://github.com/SaniaZahra08/Class-Monitoring-Robot) and change the following according to your wifi ssid and password.
 1. const char* WIFI_SSID = "ssid"; 
 2. const char* WIFI_PASS = "password";
 ### Setting up Arduino IDE:                                                                                                                                                                                   
@@ -51,10 +51,10 @@ Compile it now and send it to the ESP32 CAM Board. However, when uploading, you 
 * If the output of the Serial monitor is still missing, hit the reset button once more.
 - Here, copy the IP address visible, we will be using it to edit the URL in python code.                                                                                    
  ### INSTALL VISUAL STUDIO:             
-  First download the visual studio  [from here](https://visualstudio.[First download the visual studiomicrosoft.com/downloads/)   
+  First download the visual studio[from here](https://visualstudio.[First download the visual studiomicrosoft.com/downloads/)   
 Install the community version of Visual studio. Once downloaded install the software a welcome installation screen would appear, now select the community version. After this from numerous selecting boxes, and select Desktop development with C++. Now that you've chosen the, click on Install/Modify in the lower right area. This procedure will take some time because large files will be downloaded.
 Once loaded, it will prompt you to restart your computer. As a result, that will be done immediately.
-Now download the code [from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot) 
+- Now download the code [from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot) 
 Place the downloaded files, including the facial recognition file, image folder, and requirements file, in a folder.
 `pip install -r requirements.txt`
  **Now open command prompt** in the same directory and write:                                                                                                            
