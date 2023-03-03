@@ -66,7 +66,7 @@ THE CODE IS WORKING.
 ### EXCEL FILE:
 Now, in the present working directory, open the Attendace.csv file. You will find all of the details about who was detected and when. 
 ### For Line Following and Obstacles Avoiding: 
- [Download and install Arduino IDE Version1.8.15. Then copy the code from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot)  and paste on Arduino IDE
+Download and install Arduino IDE Version1.8.15. Then copy the code [ from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot)  and paste on Arduino IDE
 ### Installlation of Library:
 You have to install the NewPing library before uploading the code:                                                                                                     
 - Follow this procedure to install the NewPing library                                       
