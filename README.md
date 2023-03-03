@@ -8,11 +8,11 @@ For this program, we will be utilizing OpenCV and Visual Studio. OpenCV is a fre
 
 **The pins will be attached as follows**:
 
-Arduino Uno	ESP32 Cam
-5V	5V
-GND	GND
-Tx	U0R
-Rx	UOT
+Arduino Uno   :	ESP32 Cam
+- 5V	            - 5V
+- GND	           - GND
+- Tx	           - U0R
+- Rx	            -UOT
 	
 
 ### Installation OF Arduino IDE:
@@ -51,28 +51,29 @@ Compile it now and send it to the ESP32 CAM Board. However, when uploading, you 
 * If the output of the Serial monitor is still missing, hit the reset button once more.
 - Here, copy the IP address visible, we will be using it to edit the URL in python code.                                                                                    
  ### INSTALL VISUAL STUDIO:             
-    [First download the visual studio from here](https://visualstudio.microsoft.com/downloads/)   Install the community version of Visual studio. Once downloaded install the software a welcome installation screen would appear, now select the community version. After this from numerous selecting boxes, and select Desktop development with C++. Now that you've chosen the, click on Install/Modify in the lower right area. This procedure will take some time because large files will be downloaded.
+  First download the visual studio  [from here](https://visualstudio.[First download the visual studiomicrosoft.com/downloads/)   
+Install the community version of Visual studio. Once downloaded install the software a welcome installation screen would appear, now select the community version. After this from numerous selecting boxes, and select Desktop development with C++. Now that you've chosen the, click on Install/Modify in the lower right area. This procedure will take some time because large files will be downloaded.
 Once loaded, it will prompt you to restart your computer. As a result, that will be done immediately.
-[Now download the code from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot) 
+Now download the code [from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot) 
 Place the downloaded files, including the facial recognition file, image folder, and requirements file, in a folder.
-**Now open command prompt** in the same directory and write:
 `pip install -r requirements.txt`
-### Python Code for Face Recognition Attendance System:
-Now copy the code in file which name is face_detection.py. First, we need to update the URL variable in the code with the URL copied from Arduino serial monitor earlier.
-Secondly, update the path variable in the code with the path of the image folder folder.
+ **Now open command prompt** in the same directory and write:                                                                                                            
+### Python Code for Face Recognition Attendance System: 
+Now copy the code in file which name is face_detection.py.
+- First, we need to update the URL variable in the code with the URL copied from Arduino serial monitor earlier.
+* Secondly, update the path variable in the code with the path of the image folder folder.
 THE CODE IS WORKING.
 ### EXCEL FILE:
 Now, in the present working directory, open the Attendace.csv file. You will find all of the details about who was detected and when. 
-### For Line Following and Obstacles Avoiding:
- [Download and install Arduino IDE Version1.8.15. Then copy the code from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot)  and paste on Arduino IDE.
+### For Line Following and Obstacles Avoiding: 
+ [Download and install Arduino IDE Version1.8.15. Then copy the code from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot)  and paste on Arduino IDE
 ### Installlation of Library:
- You have to install the NewPing library before uploading the code:
-- Follow this procedure to install the NewPing library 
-* First download the NewPing.zip library >> click on sketch tab >> Include Library>> Add.ZIP LIBRARY >> Select NewPing.zip file >> Done
-- [NewPing Library Link ]( https://github.com/eliteio/Arduino_New_Ping)                                        
-### Arduino IDE Setting: 
-Select the board and port.
--Board: “Arduino Nano” 
+You have to install the NewPing library before uploading the code:                                                                                                     
+- Follow this procedure to install the NewPing library                                       
+* First download the NewPing.zip library >>      click on sketch tab >> Include Library>> Add.ZIP LIBRARY >> Select NewPing.zip file >> Done
+- [NewPing Library Link ]( https://github.com/eliteio/Arduino_New_Ping)  
+### Arduino IDE Setting:  
+Select the board and port.-Board: “Arduino Nano”
 * Port: “COMx’ > According to your port connection
 **Upload the code:**                                                                                                                                                      First verify the code then upload it.
 ### Hardware Requirements:
@@ -81,9 +82,9 @@ Select the board and port.
 - Ultrasonic sensors
 * Moter Driver
 - Wheels
-* Male-male jumper wires
-- Male-female jumper wires                                                                                                                
-* Bettery
-- Dc gear motors                                                                                                                                                         
- ### Connection between hardware components:                                                                                                                              
-![image](https://user-images.githubusercontent.com/126508260/222678305-2087572a-d243-4bb4-858c-62de77560120.png)
+* Male-male jumper wires                                                                                                           
+- Male-female jumper wires    
+ * Bettery                                                                                                                                                        
+ - Dc gear motors                                                                                                                             
+### Connection between hardware components: 
+ ![image](https://user-images.githubusercontent.com/126508260/222678305-2087572a-d243-4bb4-858c-62de77560120.png)
