@@ -52,7 +52,7 @@ Compile it now and send it to the ESP32 CAM Board. However, when uploading, you 
 - Here, copy the IP address visible, we will be using it to edit the URL in python code.                                                                                    
  ### INSTALL VISUAL STUDIO:             
   First download the visual studio[from here](https://visualstudio).   
-Install the community version of Visual studio. Once downloaded install the software a welcome installation screen would appear, now select the community version. After this from numerous selecting boxes, and select Desktop development with C++. Now that you've chosen the, click on Install/Modify in the lower right area. This procedure will take some time because large files will be downloaded.
+- Install the community version of Visual studio. Once downloaded install the software a welcome installation screen would appear, now select the community version. After this from numerous selecting boxes, and select Desktop development with C++. Now that you've chosen the, click on Install/Modify in the lower right area. This procedure will take some time because large files will be downloaded.
 Once loaded, it will prompt you to restart your computer. As a result, that will be done immediately.
 - Now download the code [from here](https://github.com/SaniaZahra08/Class-Monitoring-Robot) 
 Place the downloaded files, including the facial recognition file, image folder, and requirements file, in a folder.
